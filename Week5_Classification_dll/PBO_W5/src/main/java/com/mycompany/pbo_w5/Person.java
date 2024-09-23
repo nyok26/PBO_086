@@ -14,6 +14,6 @@ public class Person {
 
     // Method untuk menampilkan informasi umum
     public void displayInfo() {
-        System.out.println("Nama: " + nama);
+        System.out.println("Nama Dosen: " + nama);
     }
 }

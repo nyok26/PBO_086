@@ -1,30 +1,24 @@
 package com.mycompany.pbo_w5;
 
 public  class Dosen extends Person {
-    private String NIP;
-    private String fakultas;
-    private String jabatan;
+    private String kdDosen;
+    
 
     // Constructor Dosen
-    public Dosen(String nama, String NIP, String jabatan) {
+    public Dosen(String nama, String kdDosen) {
         super(nama);
-        this.NIP = NIP;
-        this.jabatan = jabatan;
+        this.kdDosen = kdDosen;
     }
 
     // Getter dan Setter
-    public String getNIP() { return NIP; }
-    public void setNIP(String NIP) { this.NIP = NIP; }
-    public String getFakultas() { return fakultas; }
-    public void setFakultas(String fakultas) { this.fakultas = fakultas; }
-    public String getJabatan() { return jabatan; }
-    public void setJabatan(String jabatan) { this.jabatan = jabatan; }
+    public String getkdDosen() { return kdDosen; }
+    public void setkdDosen(String kdDosen) { this.kdDosen = kdDosen; }
+   
 
     // Method tambahan untuk menampilkan info dosen
     @Override
     public void displayInfo() {
         super.displayInfo();
-        System.out.println("NIP: " + NIP);
-        System.out.println("Jabatan: " + jabatan);
+        System.out.println("Kode Dosen: " + kdDosen);
     }
 }
