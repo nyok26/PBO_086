@@ -22,7 +22,6 @@ public class Main {
         Ruangan D101 = new Ruangan("D101-Kelas");
         Ruangan D102 = new Ruangan("D102-Lab. MT");
         Ruangan D106 = new Ruangan("D106-Lab. SDB");
-        Ruangan ruangan5 = new Ruangan("Ruang Seminar");
 
         // Membuat daftar jadwal perkuliahan
         List<Jadwal> jadwalKuliah = new ArrayList<>();
