@@ -1,0 +1,6 @@
+projectKey=fis
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=fis
+ceTaskId=7659aee4-6d84-40c2-ac45-bfd101fa0ead
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7659aee4-6d84-40c2-ac45-bfd101fa0ead
